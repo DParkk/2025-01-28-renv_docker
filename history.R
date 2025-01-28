@@ -1,0 +1,30 @@
+getwd()
+renv::init()
+install.packages("dplyr")
+renv::snapshot()
+install.packages("readr")
+library(readr)
+read.csv("data/data.csv")
+renv::snapshot()
+read_csv("data/data.csv")
+renv::snapshot()
+renv::snapshot()
+df |>
+dplyr::select(first)
+df |>
+dplyr::select(first)
+df |> dplyr::select(first)
+library(readr)
+df<- read_csv("data/data.csv")
+df
+df |> dplyr::select(first)
+df |> dplyr::select(first)
+library(readr)
+df<- read_csv("data/data.csv")
+df
+df |> dplyr::select(first)
+source("~/git/2025-01-28-renv_docker/analysis.R", echo=TRUE)
+source("~/git/2025-01-28-renv_docker/analysis.R", echo=TRUE)
+y
+renv::snapshot()
+savehistory("~/git/2025-01-28-renv_docker/history.R")
